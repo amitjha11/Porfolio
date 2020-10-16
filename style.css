@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.jumbotron {
+    background-image: url('images/portfoliwall.jpg');
+    height: 80vh;
+    
+    background-size: cover;
+    background-position: center;
+    color:#ffff;
+    border-radius: 0px!important;
+
+
+  }
+
+footer{
+    background: rgb(94, 214, 250);
+}
+a:link{
+    color: #fff;
+    text-decoration: none;
+}
+a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+a:active{
+    color: #fff;
+    text-decoration: none;
+}
