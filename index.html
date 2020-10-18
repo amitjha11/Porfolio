@@ -10,47 +10,49 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css" />
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  
   <title>Amit's Portfolio</title>
 </head>
 
 <body class='bg-dark'>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" align='center'>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" align='center'>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mx-auto" align='center'>
-      <li class="nav-item">
-        <a class="nav-link text-light" href="#intro">Introduction</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-light" href="#courses">Courses</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-light" href="#projects">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-light" href="#tskills">Technical Skills</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-light" href="#sskills">Soft Skills</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto" align='center'>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#intro">Introduction</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#courses">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#tskills">Technical Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#sskills">Soft Skills</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
 
 
   <div class="jumbotron text-center">
     <div id="thubmil">
-      <img class='img-fluid mx-auto d-flex' src='images/dataHuman.jpg' width="300" />
+      <img class='img-fluid mx-auto d-flex wow fadeIn' src='images/dataHuman.jpg' width="300" />
     </div>
   </div>
-  <div class="container" style="padding: 3px 2;" align="center">
+  <div class="container wow fadeIn data-wow-duration="2s"" style="padding: 3px 2;" align="center">
     <a href="https://github.com/amitjha11">
       <i class="fab fa-github fa-lg white-text mr-md-5 mb-3 mr-3 fa-2x"></i>
     </a>
@@ -74,8 +76,8 @@
   <div id="intro" class='container'>
     <div class="card">
       <div class="card-body">
-        <h2 class="card-title bg-warning text-info wow wobble">Introduction</h2>
-        <p> Hello Everobody my name is <b>Amit Kumar</b>.
+        <h2 class="card-title bg-warning text-info ">Introduction</h2>
+        <p class="wow fadeInDown"> Hello Everobody my name is <b>Amit Kumar</b>.
           I have Completed My<b> MCA from Pondicherry University in 2020 </b> and now aspiring to work as a data
           scientist.
           I have relevent knowledge in every aspect of data science whether it is Statistics, Data Analyisis and Model
@@ -89,7 +91,7 @@
           </div>
           <div class="card-body">
             <div class='row'>
-              <div class='col-6'>
+              <div class='col-6 wow fadeInLeft'>
                 <h4 class="card-title">MCA</h4>
                 <p class="card-text">
                 <h5>From Pondicherry University</h5>
@@ -98,7 +100,7 @@
                 <p><b>Academic Project</b>: Speech Emotion Detection</p>
                 </p>
               </div>
-              <div class='col-6'>
+              <div class='col-6 wow fadeInRight'>
                 <h4 class="card-title">BCA</h4>
                 <p class="card-text">
                 <h5>From Arcade Business College</h5>
@@ -114,7 +116,7 @@
     </div>
   </div>
   <hr class="bg-light" />
-  <div class='container' id='courses'>
+  <div class='container wow fadeInRight' id='courses'>
     <h2 class="bg-warning text-info mt-2">Courses</h2>
     <ul class='container text-light'>
       <li><a href="https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning">
@@ -145,10 +147,10 @@
         <div class="card-body">
           <div class="row">
             <div class="col-md-4">
-              <img src='images/carprice.png' class='img-fluid wow zoomIn'>
+              <img src='images/carprice.png' class='img-fluid wow fadeInLeft'>
             </div>
             <div class="col-md-8">
-              <h3 class="card-title text-light">Car Price Prediction</h3>
+              <h3 class="card-title text-light wow fadeInRight">Car Price Prediction</h3>
               <p class="card-text text-light">In this End to End project I created a regression model to predict the
                 price of Car.
                 For this project I have used RandomForestRegressor Model. See my github repository here.</p>
@@ -164,10 +166,10 @@
         <div class="card-body">
           <div class="row">
             <div class="col-md-4">
-              <img src='images/speechEmotion.jpg' class='img-fluid'>
+              <img src='images/speechEmotion.jpg' class='img-fluid wow fadeInLeft'>
             </div>
             <div class="col-md-8">
-              <h3 class="card-title text-light">Speech Emotion Recognition</h3>
+              <h3 class="card-title text-light wow fadeInRight">Speech Emotion Recognition</h3>
               <p class="card-text text-light">In this project I have created a classification model using speech
                 dataset. The Model
                 is trained using Conv1D and Conv2D CNN algorithms. See my github for more information.
@@ -183,10 +185,10 @@
         <div class="card-body">
           <div class="row">
             <div class="col-md-4">
-              <img src='images/leaves.jpg' class='img-fluid'>
+              <img src='images/leaves.jpg' class='img-fluid wow fadeInLeft'>
             </div>
             <div class="col-md-8">
-              <h3 class="card-title text-light">Plant-Disease-Detection-Using-VGG16</h3>
+              <h3 class="card-title text-light wow fadeInRight">Plant-Disease-Detection-Using-VGG16</h3>
               <p class="card-text text-light">In this project I have created a classification model for cotton leaves
                 disease
                 detection using CNN architecture
@@ -204,10 +206,10 @@
         <div class="card-body">
           <div class="row">
             <div class="col-md-4">
-              <img src='images/cotton_leaves.jpg' class='img-fluid'>
+              <img src='images/cotton_leaves.jpg' class='img-fluid wow fadeInLeft'>
             </div>
             <div class="col-md-8">
-              <h3 class="card-title text-light">Cotton Leaves Disease Detection using CNN</h3>
+              <h3 class="card-title text-light wow fadeInRight">Cotton Leaves Disease Detection using CNN</h3>
               <p class="card-text text-light">In this project I have created a classification model using transfer
                 learning
                 techniques. See my github for more information.
@@ -222,7 +224,7 @@
   </div>
   <hr class='bg-light' />
   <div id='tskills' class='container'>
-    <h3 class='bg-warning text-info'>Technical Skills</h3>
+    <h3 class='bg-warning text-info wow fadeInLeft'>Technical Skills</h3>
     <h6 class='text-light'>Languages</h6>
     <span class="badge badge-pill badge-success">Python</span>
     <span class="badge badge-pill badge-success">SQL</span>
@@ -265,7 +267,7 @@
   </div>
   <hr class='bg-light' />
   <div id='sskills' class='container'>
-    <h3 class='bg-warning text-info'>Soft Skills</h3>
+    <h3 class='bg-warning text-info wow fadeInRight'>Soft Skills</h3>
     <span class="badge badge-pill badge-success">Communication Skills</span>
     <span class="badge badge-pill badge-success">Presentation Skills</span>
     <span class="badge badge-pill badge-success">Story-Telling</span>
@@ -308,24 +310,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
   integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
   crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+  integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+  crossorigin="anonymous"></script>
 <script>
-  var wow = new WOW(
-    {
-      boxClass: 'wow',      // animated element css class (default is wow)
-      animateClass: 'animated', // animation css class (default is animated)
-      offset: 0,          // distance to the element when triggering the animation (default is 0)
-      mobile: true,       // trigger animations on mobile devices (default is true)
-      live: true,       // act on asynchronously loaded content (default is true)
-      callback: function (box) {
-        // the callback is fired every time an animation is started
-        // the argument that is passed in is the DOM node being animated
-      },
-      scrollContainer: null,    // optional scroll container selector, otherwise use window,
-      resetAnimation: true,     // reset animation on end (default is true)
-    }
-  );
-  wow.init();
+  new WOW().init();
 </script>
-</body>
 
 </html>
